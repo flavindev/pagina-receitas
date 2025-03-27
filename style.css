@@ -10,14 +10,14 @@
 }
 
 body {
-    background-image: url("./assets/pagina-de-receita.jpg");
+    background-image: url("./assets/bg-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #page {
     box-sizing: border-box;
-    margin: 48px auto;
+    margin: 48px auto 28px;
     width: 800px;
     padding: 24px;
     background-color: #F0E8C2;
@@ -57,4 +57,14 @@ h1, h2 {
 
 ul {
     padding-left: 24px;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
